@@ -1,0 +1,149 @@
+{
+	"describe": {
+		"prefix": "dsb",
+		"body": [
+			"describe('$1', () => {",
+			"    $0",
+			"});"
+		],
+		"description": "describe"
+	},
+	"context": {
+		"prefix": "ctx",
+		"body": [
+			"context('$1', () => {",
+			"    $0",
+			"});"
+		],
+		"description": "context"
+	},
+	"it": {
+		"prefix": "it",
+		"body": [
+			"it('$1', () => {",
+			"    $0",
+			"});"
+		],
+		"description": "it"
+	},
+	"before": {
+		"prefix": "bf",
+		"body": [
+			"before(() => {",
+			"    $0",
+			"});"
+		],
+		"description": "before"
+	},
+	"after": {
+		"prefix": "af",
+		"body": [
+			"after(() => {",
+			"    $0",
+			"});"
+		],
+		"description": "after"
+	},
+	"afterEach": {
+		"prefix": "afe",
+		"body": [
+			"afterEach(() => {",
+			"    $0",
+			"});"
+		],
+		"description": "afterEach"
+	},
+	"beforeEach": {
+		"prefix": "bfe",
+		"body": [
+			"beforeEach(() => {",
+			"",
+			"});"
+		],
+		"description": "beforeEach"
+	},
+	"visit": {
+		"prefix": "cyvt",
+		"body": [
+			"cy.visit('$1');$0"
+		],
+		"description": "Cypress visit"
+	},
+    "get": {
+		"prefix": "cygt",
+		"body": [
+			"cy.get('$1');$0"
+		],
+		"description": "Cypress get"
+	},
+    "find": {
+		"prefix": "cyfd",
+		"body": [
+			"cy.get('$1').find('$2');$0"
+		],
+		"description": "Cypress find"
+	},
+    "first": {
+		"prefix": "cyft",
+		"body": [
+			"cy.get('$1').first('$2');$0"
+		],
+		"description": "Cypress first"
+	},
+    "type": {
+		"prefix": "cyte",
+		"body": [
+			"cy.get('$1').type('$2');$0"
+		],
+		"description": "Cypress type"
+	},
+    "contains": {
+		"prefix": "cycs",
+		"body": [
+			"cy.contains('$1');$0"
+		],
+		"description": "Cypress contains"
+	},
+    "click": {
+		"prefix": "cyck",
+		"body": [
+			"cy.get('$1').click($2);$0"
+		],
+		"description": "Cypress click"
+	},
+    "wait": {
+		"prefix": "cywt",
+		"body": [
+			"cy.wait('$1');$0"
+		],
+		"description": "Cypress wait"
+	},
+    "log": {
+		"prefix": "cylg",
+		"body": [
+			"cy.log('$1');$0"
+		],
+		"description": "Cypress log"
+	},
+    "pause": {
+		"prefix": "cype",
+		"body": [
+			"cy.pause();$0"
+		],
+		"description": "Cypress pause"
+	},
+    "debug": {
+		"prefix": "cydg",
+		"body": [
+			"cy.debug();$0"
+		],
+		"description": "Cypress debug"
+	},
+    "screenshot": {
+		"prefix": "cyst",
+		"body": [
+			"cy.screenshot('$1');$0"
+		],
+		"description": "Cypress screenshot"
+	}
+}
