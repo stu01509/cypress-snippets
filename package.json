@@ -1,11 +1,21 @@
 {
     "name": "cypress-snippets",
     "displayName": "Cypress Snippets",
-    "description": "This extension includes the most common cypress syntax",
+    "description": "This extension includes the most common cypress snippets",
+    "icon": "icon.png",
     "version": "0.0.1",
+    "publisher": "CliffSu",
     "engines": {
         "vscode": "^1.60.0"
     },
+    "license": "MIT",
+    "keywords": [
+        "cypress",
+        "e2e",
+        "integration tests",
+        "unit tests",
+        "end-to-end tests"
+    ],
     "categories": [
         "Snippets"
     ],
