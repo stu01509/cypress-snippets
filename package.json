@@ -4,7 +4,7 @@
     "description": "This extension includes the most common cypress snippets",
     "icon": "icon.png",
     "repository": "https://github.com/stu01509/cypress-snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "CliffSu",
     "engines": {
         "vscode": "^1.60.0"
