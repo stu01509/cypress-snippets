@@ -4,7 +4,7 @@
     "description": "This extension includes the most common cypress snippets",
     "icon": "icon.png",
     "repository": "https://github.com/stu01509/cypress-snippets",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "publisher": "CliffSu",
     "engines": {
         "vscode": "^1.60.0"
@@ -26,6 +26,10 @@
         "snippets": [
             {
                 "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]

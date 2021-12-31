@@ -6,4 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.1]
 
-- Initial release
+- Initial release.
+
+## [0.0.2]
+
+- Add `vsc-extension-quickstart.md` file.
+
+## [0.0.4]
+
+- Support TypeScript files.
