@@ -27,7 +27,7 @@
 		"description": "it"
 	},
 	"specify": {
-		"prefix": "spy",
+		"prefix": "spe",
 		"body": [
 			"specify('$1', () => {",
 			"    $0",
@@ -95,9 +95,16 @@
     "first": {
 		"prefix": "cyft",
 		"body": [
-			"cy.get('$1').first('$2');$0"
+			"cy.get('$1').first();$0"
 		],
 		"description": "Cypress first"
+	},
+	"last": {
+		"prefix": "cylt",
+		"body": [
+			"cy.get('$1').last();$0"
+		],
+		"description": "Cypress last"
 	},
     "type": {
 		"prefix": "cyte",
@@ -126,6 +133,15 @@
 			"cy.wait('$1');$0"
 		],
 		"description": "Cypress wait"
+	},
+	"wait-then": {
+		"prefix": "cywtt",
+		"body": [
+			"cy.wait('$1').then(($2) => {",
+			"    $0",
+			"});"
+		],
+		"description": "Cypress wait then"
 	},
     "log": {
 		"prefix": "cylg",
@@ -156,10 +172,45 @@
 		"description": "Cypress screenshot"
 	},
     "viewport": {
-		"prefix": "cyvp",
+		"prefix": "cyvpt",
 		"body": [
-			"cy.viewport($1, $2);$0"
+			"cy.viewport($1);$0"
 		],
 		"description": "Cypress viewport"
-	}
+	},
+	"intercept": {
+		"prefix": "cyict",
+		"body": [
+			"cy.intercept('$1', '$2').as('$3');$0"
+		],
+		"description": "Cypress intercept"
+	},
+	"url": {
+		"prefix": "cyurl",
+		"body": [
+			"cy.url().should('$1', '$2');$0"
+		],
+		"description": "Cypress URL"
+	},
+	"title": {
+		"prefix": "cytit",
+		"body": [
+			"cy.title().should('$1', '$2');$0"
+		],
+		"description": "Cypress URL"
+	},
+	"scrollTo": {
+		"prefix": "cyso",
+		"body": [
+			"cy.scrollTo($1);$0"
+		],
+		"description": "Cypress scrollTo"
+	},
+	"scrollIntoView": {
+		"prefix": "cysiv",
+		"body": [
+			"cy.get($1).scrollIntoView($2);$0"
+		],
+		"description": "Cypress scrollIntoView"
+	},
 }

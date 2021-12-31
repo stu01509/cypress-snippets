@@ -26,36 +26,38 @@ In order to install an extension, you need to open the Extensions Palette (`Ctrl
 
 ### Mocha Snippets
 
-| Snippet  | Code                               |
-| -------- | -----------------------------------|
-| `dsb`    | describe('', () => {<br><br>});    |
-| `ctx`    | context('', () => {<br><br>});     |
-| `spy`    | specify('', () => {<br><br>});     |
-| `it`     | it('', () => {<br><br>});          |
-| `bf`     | before('', () => {<br><br>});      |
-| `bfe`    | beforeEach('', () => {<br><br>});  |
-| `af`     | after('', () => {<br><br>});       |
-| `afe`    | afterEach('', () => {<br><br>});   |
+| Snippet  | Code                                                   |
+| -------- | -------------------------------------------------------|
+| `dsb`    | describe('', () => {<br><br>});                        |
+| `ctx`    | context('', () => {<br><br>});                         |
+| `spe`    | specify('', () => {<br><br>});                         |
+| `it`     | it('', () => {<br><br>});                              |
+| `bf`     | before('', () => {<br><br>});                          |
+| `bfe`    | beforeEach('', () => {<br><br>});                      |
+| `af`     | after('', () => {<br><br>});                           |
+| `afe`    | afterEach('', () => {<br><br>});                       |
 
 **[⬆ Back to top](#Installation)**
 
 ### Cypress Snippets
 
-| Snippet  | Code                               |
-| -------- | ---------------------------------- |
-| `cyvt`   | cy.visit('');                      |
-| `cygt`   | cy.get('');                        |
-| `cyfd`   | cy.get('').find('');               |
-| `cyft`   | cy.get('').first('');              |
-| `cyte`   | cy.get('').type('');               |
-| `cycs`   | cy.contains('');                   |
-| `cyck`   | cy.get('').click();                |
-| `cywt`   | cy.wait('');                       |
-| `cylg`   | cy.log('');                        |
-| `cype`   | cy.pause();                        |
-| `cydg`   | cy.debug();                        |
-| `cyst`   | cy.screenshot('');                 |
-| `cyvp`   | cy.viewport();                     |
+| Snippet  | Code                                                   |
+| -------- | -------------------------------------------------------|
+| `cyvt`   | cy.visit('');                                          |
+| `cygt`   | cy.get('');                                            |
+| `cyfd`   | cy.get('').find('');                                   |
+| `cyft`   | cy.get('').first('');                                  |
+| `cylt`   | cy.get('').last('');                                   |
+| `cyte`   | cy.get('').type('');                                   |
+| `cyck`   | cy.get('').click();                                    |
+| `cycs`   | cy.contains('');                                       |
+| `cywt`   | cy.wait('');                                           |
+| `cyul`   | cy.url().should('', '');                               |
+| `cylg`   | cy.log('');                                            |
+| `cype`   | cy.pause();                                            |
+| `cydg`   | cy.debug();                                            |
+| `cyst`   | cy.screenshot('');                                     |
+| `cyvpt`  | cy.viewport();                                         |
 
 **[⬆ Back to top](#Installation)**
 
