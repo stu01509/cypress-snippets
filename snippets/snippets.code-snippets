@@ -26,6 +26,15 @@
 		],
 		"description": "it"
 	},
+	"specify": {
+		"prefix": "spy",
+		"body": [
+			"specify('$1', () => {",
+			"    $0",
+			"});"
+		],
+		"description": "specify"
+	},
 	"before": {
 		"prefix": "bf",
 		"body": [
@@ -34,6 +43,15 @@
 			"});"
 		],
 		"description": "before"
+	},
+	"beforeEach": {
+		"prefix": "bfe",
+		"body": [
+			"beforeEach(() => {",
+			"    $0",
+			"});"
+		],
+		"description": "beforeEach"
 	},
 	"after": {
 		"prefix": "af",
@@ -52,15 +70,6 @@
 			"});"
 		],
 		"description": "afterEach"
-	},
-	"beforeEach": {
-		"prefix": "bfe",
-		"body": [
-			"beforeEach(() => {",
-			"",
-			"});"
-		],
-		"description": "beforeEach"
 	},
 	"visit": {
 		"prefix": "cyvt",
@@ -145,5 +154,12 @@
 			"cy.screenshot('$1');$0"
 		],
 		"description": "Cypress screenshot"
+	},
+    "viewport": {
+		"prefix": "cyvp",
+		"body": [
+			"cy.viewport($1, $2);$0"
+		],
+		"description": "Cypress viewport"
 	}
 }
